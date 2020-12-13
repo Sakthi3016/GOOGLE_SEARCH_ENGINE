@@ -1,0 +1,144 @@
+body{
+	font-family: Arial,sans-serif;
+	padding:0 16px;
+}
+
+nav{
+	text-align: right;
+
+}
+
+.menu-item{
+	font-size: 13px;
+	color:black;
+	text-decoration: none;
+	position: relative;
+	top: -14px;
+	margin-right: 16px;
+}
+
+.menu-item:hover{
+	text-decoration: underline;
+}
+
+#profile{
+	width: 40px;
+	height: 40px;
+}
+#dropdown-menu{
+	position: relative;
+	top: -8px;
+	margin-right: 16px;
+	cursor:pointer;
+	text-decoration: none;
+	color:black;
+}
+#dropdown-menu:hover{
+	color:gray;
+}
+#profile1{
+	text-align: center;
+	margin-left: 600px;
+	padding-top: 100px;
+
+}
+#input1{
+margin-left: 550px;
+width: 430px;
+border-radius: 24px;
+padding:10px;
+font-size: 13px;
+color:black;
+border:1px solid #dfe1e5;
+outline: none;
+margin-bottom: 24px;
+
+
+}
+
+#input1:hover{
+
+box-shadow: 0 1px 6px 0 gray;
+
+}
+
+#input1:focus{
+	box-shadow: 0 1px 6px 0 gray;
+	border-color: rgba(223,225,229,0);
+
+}
+#voice{
+	position: absolute;
+	height: 28px;
+	left: 0px;
+	margin-left: 970px;
+	
+
+
+}
+.but1{
+	background-color: #f2f2f2;
+	color:#5F6368;
+	font-size: 14px;
+	height: 36px;
+	padding: 0 16px;
+	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+	border:1px solid transparent;
+	box-shadow: 0 1px 1px rgba(0,0,0,0);
+	color:#222;
+	outline: none;
+}
+.but1:hover{
+	background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+	border:1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color:#222;
+}
+.but1:first-of-type{
+	margin-right: 16px;
+}
+#sec{
+	text-align: center;
+}
+
+#app-dropdown{
+	width: 285px;
+	padding: 48px;
+	border:1px solid #ccc;
+	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	position: absolute;
+	right:100px;
+	display: none;
+}
+.app-item{
+	display: inline-block;
+	width: 84px;
+	margin-bottom: 10px;
+
+	text-align: center;
+}
+.app-item:hover{
+	border:1px solid black;
+	border-radius: 8px;
+
+}
+
+.app-item>img{
+width: 50px;
+height: 50px;
+}
+
+.app-item>p{
+	color:black;
+	margin:0;
+	padding-top: 4px;
+}
+#wrapper{
+	display: inline-block;
+
+}
+#wrapper:hover
+ #app-dropdown{
+ 	display: block;
+
+}
